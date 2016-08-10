@@ -16,10 +16,10 @@
         android:layout_height="wrap_content"
         android:text="DOB: April 7, 1964" />
 
-    <TextView
-        android:id="@+id/tv_oscars_won"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Oscars won: 1" />
+    <!--<TextView-->
+        <!--android:id="@+id/tv_oscars_won"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Oscars won: 1" />-->
 
 </LinearLayout>

@@ -37,7 +37,7 @@ public class ActorAdapter extends ArrayAdapter<Actor> {
         if (actor != null) {
             TextView topTextView = (TextView) view.findViewById(R.id.tv_name);
             TextView middleTextView = (TextView) view.findViewById(R.id.tv_dob);
-            TextView bottomTextView = (TextView) view.findViewById(R.id.tv_oscars_won);
+//            TextView bottomTextView = (TextView) view.findViewById(R.id.tv_oscars_won);
 
             if (topTextView != null) {
                 topTextView.setText(actor.getmTop());
@@ -47,9 +47,9 @@ public class ActorAdapter extends ArrayAdapter<Actor> {
                 middleTextView.setText(actor.getmMiddle());
             }
 
-            if (bottomTextView != null) {
-                bottomTextView.setText(actor.getmBottom());
-            }
+//            if (bottomTextView != null) {
+//                bottomTextView.setText(actor.getmBottom());
+//            }
         }
 
         return view;

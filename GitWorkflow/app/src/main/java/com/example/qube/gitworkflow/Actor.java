@@ -7,7 +7,7 @@ public class Actor {
 
     private String mTop;
     private String mMiddle;
-    private String mBottom;
+//    private String mBottom;
 
     public String getmTop() {
         return mTop;
@@ -25,17 +25,22 @@ public class Actor {
         this.mMiddle = mMiddle;
     }
 
-    public String getmBottom() {
-        return mBottom;
-    }
+//    public String getmBottom() {
+//        return mBottom;
+//    }
+//
+//    public void setmBottom(String mBottom) {
+//        this.mBottom = mBottom;
+//    }
 
-    public void setmBottom(String mBottom) {
-        this.mBottom = mBottom;
-    }
+//    public Actor(String top, String middle, String bottom){
+//        mTop = top;
+//        mMiddle = middle;
+//        mBottom = bottom;
+//    }
 
-    public Actor(String top, String middle, String bottom){
+    public Actor(String top, String middle){
         mTop = top;
         mMiddle = middle;
-        mBottom = bottom;
     }
 }

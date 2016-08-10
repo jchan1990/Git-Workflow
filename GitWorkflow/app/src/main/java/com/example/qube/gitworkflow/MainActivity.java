@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Actor> arrayList = new ArrayList<>();
 
-        arrayList.add(new Actor("one", "two", "three"));
-        arrayList.add(new Actor("one", "two", "three"));
-        arrayList.add(new Actor("one", "two", "three"));
+        arrayList.add(new Actor("Jason Chan", "1990", "As many as the eye can see"));
+        arrayList.add(new Actor("Anders Palm", "1992", "One"));
+        arrayList.add(new Actor("Keanu Reeves", "Elixer of life", "Who needs an Oscar when you're Neo"));
         arrayList.add(new Actor("one", "two", "three"));
         arrayList.add(new Actor("one", "two", "three"));
         arrayList.add(new Actor("one", "two", "three"));
